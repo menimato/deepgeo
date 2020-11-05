@@ -35,3 +35,7 @@ pip install https://github.com/rvmaretto/deepgeo/releases/download/v0.1.0-alpha/
 ## Code Status
 
 Output of the Daily tests: [![Tests](https://travis-ci.com/rvmaretto/deepgeo.svg?token=hzZBUnY2fxA36rz9qeM9&branch=master)](https://travis-ci.com/rvmaretto/deepgeo)
+
+## Work in Progress
+
++ SHP chips insertion.
