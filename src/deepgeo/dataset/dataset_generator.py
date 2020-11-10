@@ -14,6 +14,7 @@ import common.utils as utils
 import common.filesystem as fs
 import dataset.sequential_chips as seqchips
 import dataset.random_chips as rdmchips
+import dataset.shapefile_chips as shpchips
 import dataset.utils as dsutils
 
 
@@ -32,7 +33,8 @@ def wrap_int64(value):
 class DatasetGenerator(object):
     strategies = {
         'sequential': seqchips.SequentialChipGenerator,
-        'random': rdmchips.RandomChipGenerator
+        'random': rdmchips.RandomChipGenerator,
+        'shapefile': shpchips.ShapefileChipGenerator
     }
 
     def __init__(self, raster_arrays, labels_arrays, strategy='sequential', description=None):
